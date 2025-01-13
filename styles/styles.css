@@ -3,3 +3,97 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+::selection {
+    background-color: coral;
+    color: black;
+}
+
+/* Navbar Section here */
+.navbar {
+    height: 11vh;
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.nav-manu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #a8a8a8;
+}
+
+.nav-manu li a:hover {
+    color: #ffffff;
+}
+
+/* hero section here  */
+.hero {
+    height: 89vh;
+    width: 100%;
+    padding: 0px 120px 30px 120px;
+}
+
+.hero-content {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#000000a8, #000000a8), url("../images/hero.webp");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.hero-title {
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-main-title {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 45px;
+    line-height: 45px;
+    padding-bottom: 18px;
+}
+
+.hero-paragraph {
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-btn {
+    border: 1px solid #ffffff;
+    background: transparent;
+    padding: 12px 0px;
+    width: 150px;
+    border-radius: 8px;
+    color: #ffff;
+}
